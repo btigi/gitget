@@ -1,0 +1,268 @@
+﻿{
+	"packages": [
+		{
+			"name": "dgmlViewer",
+			"description": "A DGML file viewer",
+			"repo": "btigi/dgmlViewer",
+			"asset": null
+		},
+		{
+			"name": "taView",
+			"description": "A viewer for archive files from Total Annihilation and Total Annihilation: Kingdoms by Cavedog Entertainment",
+			"repo": "btigi/taview",
+			"asset": null
+		},
+		{
+			"name": "bimorg",
+			"description": "App to use local-ai to classify and search d&d battlemaps",
+			"repo": "btigi/bimorg",
+			"asset": null
+		},
+		{
+			"name": "streak",
+			"description": "A a command-line app to record task consistency",
+			"repo": "btigi/streak",
+			"asset": null
+		},
+		{
+			"name": "exeRedirector",
+			"description": "Path-based EXE redirection app - open a single file-type in different applications based on the path",
+			"repo": "btigi/exeredirector",
+			"asset": null
+		},
+		{
+			"name": "FromTheForge",
+			"description": "CLI client for https://www.forgebound.io/",
+			"repo": "btigi/FromTheForge",
+			"asset": null
+		},
+		{
+			"name": "tlksearch",
+			"description": "Command-line tool to search a collection of TLK files for a given string",
+			"repo": "btigi/tlksearch",
+			"asset": null
+		},
+		{
+			"name": "hogconex",
+			"description": "A context menu extension to extract files from HOG files used by Descent (1995) and Descent II (1996)",
+			"repo": "btigi/hogconex",
+			"asset": null
+		},
+		{
+			"name": "pigcon",
+			"description": "Command-line app to extract files from PIG archives from Descent (1995) and Descent II (1996)",
+			"repo": "btigi/pigcon",
+			"asset": null
+		},
+		{
+			"name": "pigconex",
+			"description": "A context menu extension to extract files from PIG files used by Descent (1995) and Descent II (1996)",
+			"repo": "btigi/pigconex",
+			"asset": null
+		},
+		{
+			"name": "hogex",
+			"description": "Command-line app to extract files from HOG archives from Descent (1995) and Descent II (1996)",
+			"repo": "btigi/pigconex",
+			"asset": null
+		},
+		{
+			"name": "fiendfriend",
+			"description": "Display a desktop pet",
+			"repo": "btigi/fiendfriend",
+			"asset": null
+		},
+		{
+			"name": "descentview",
+			"description": "A viewer for archive files from Descent and Descent 2 by Parallax Software",
+			"repo": "btigi/descentview",
+			"asset": null
+		},
+		{
+			"name": "deskimage",
+			"description": "Pin images to your desktop background",
+			"repo": "btigi/deskimage",
+			"asset": null
+		},
+		{
+			"name": "extrpact",
+			"description": "extrpact is a command-line tool to extract files from RPA archives as created by RenPy and used in several visual novels",
+			"repo": "btigi/extrpact",
+			"asset": null
+		},
+		{
+			"name": "frt",
+			"description": "Command-line tool to create a static HTML chart page to visualise films watched",
+			"repo": "btigi/frt",
+			"asset": null
+		},
+		{
+			"name": "makem3u",
+			"description": "A command-line tool to create m3u playlist files from directories of music files",
+			"repo": "btigi/makem3u",
+			"asset": null
+		},
+		{
+			"name": "hpiex",
+			"description": "Command line app to manipulate archive files from the Total Annihilation (1997) and Total Annihilation: Kingdoms (1999) by Cavedog Enterainment",
+			"repo": "btigi/hpiex",
+			"asset": null
+		},
+		{
+			"name": "hpiconex",
+			"description": "A context menu extension to extract files from Total Annihilation and Total Annihilation: Kingdoms by Cavedog Entertainment",
+			"repo": "btigi/hpiconex",
+			"asset": null
+		},
+		{
+			"name": "ftgex",
+			"description": "Command line app to manipulate archive files from the 1997 RTS Dark Reign by Auren",
+			"repo": "btigi/ftgex",
+			"asset": null
+		},
+		{
+			"name": "darkview",
+			"description": "A viewer for archive files from the 1997 RTS game Dark Reign by Auren",
+			"repo": "btigi/darkview",
+			"asset": null
+		},
+		{
+			"name": "cobconex",
+			"description": "A context menu extension to extract files from the 1995 4X game Ascendancy by The Logic Factory",
+			"repo": "btigi/cobconex",
+			"asset": null
+		},
+		{
+			"name": "cobex",
+			"description": "Command line app to manipulate archive files from the 1995 4x Ascendancy by The Logic Factory",
+			"repo": "btigi/cobex",
+			"asset": null
+		},
+		{
+			"name": "cobview",
+			"description": "A viewer for archive files from the 1995 4x game Ascendancy by The Logic Factory",
+			"repo": "btigi/cobview",
+			"asset": null
+		},
+		{
+			"name": "alarm",
+			"description": "alarm is a command line application to play an audio file after a specified delay",
+			"repo": "btigi/alarm",
+			"asset": null
+		},
+		{
+			"name": "unblocknet",
+			"description": "Command line app to bulk remove the 'mark of the web' alternate data stream",
+			"repo": "btigi/unblocknet",
+			"asset": null
+		},
+		{
+			"name": "mpclean",
+			"description": "Clean mp3 filenames and metadata",
+			"repo": "btigi/mpclean",
+			"asset": null
+		},
+		{
+			"name": "fren",
+			"description": "Command-line tool to rename files in bulk, removing specified text",
+			"repo": "btigi/fren",
+			"asset": null
+		},
+		{
+			"name": "asciiz",
+			"description": "Convert images to ascii art",
+			"repo": "btigi/asciiz",
+			"asset": null
+		},
+		{
+			"name": "b64",
+			"description": "",
+			"repo": "btigi/b64",
+			"asset": null
+		},
+		{
+			"name": "DesktopMirror",
+			"description": "",
+			"repo": "btigi/DesktopMirror",
+			"asset": null
+		},
+		{
+			"name": "deskburst",
+			"description": "Play fireworks over your desktop - celebrate!",
+			"repo": "btigi/deskburst",
+			"asset": null
+		},
+		{
+			"name": "makeiso",
+			"description": "",
+			"repo": "btigi/makeiso",
+			"asset": null
+		},
+		{
+			"name": "bp",
+			"description": "",
+			"repo": "btigi/bp",
+			"asset": null
+		},
+		{
+			"name": "fsplit",
+			"description": "Command-line app to split and recombine files",
+			"repo": "btigi/fsplit",
+			"asset": null
+		},
+		{
+			"name": "ContentSearch",
+			"description": "An extremely simple grep-inspired file content search tool",
+			"repo": "btigi/ContentSearch",
+			"asset": null
+		},
+		{
+			"name": "dgml2dot",
+			"description": "dgml2dot is a simple command-line tool to convert DGML files to DOT files",
+			"repo": "btigi/dgml2dot",
+			"asset": null
+		},
+		{
+			"name": "fsw",
+			"description": "Console app to run a custom event when file events are raised",
+			"repo": "btigi/fsw",
+			"asset": null
+		},
+		{
+			"name": "roll",
+			"description": "Simple command line app to roll dice",
+			"repo": "btigi/roll",
+			"asset": null
+		},
+		{
+			"name": "git-single",
+			"description": "A script that allows users to clone a specific file or directory from a GitHub repository",
+			"repo": "btigi/git-single",
+			"asset": null
+		},
+		{
+			"name": "mp3paper",
+			"description": "mp3paper is a command line application to visualize an mp3 soundwave as an image, intended to create desktop wallpaper - have your love one's word stylishly set as your desktop background!",
+			"repo": "btigi/mp3paper",
+			"asset": null
+		},
+		{
+			"name": "swavewall",
+			"description": "swavewall is a command line application to generate images looking like a soundwave, intended for use as desktop wallpaper",
+			"repo": "btigi/swavewall",
+			"asset": null
+		},
+		{
+			"name": "wallicons",
+			"description": "Command line application to change desktop wallpaper and save/restore desktop icon positions",
+			"repo": "btigi/wallicons",
+			"asset": null
+		},
+		{
+			"name": "mmp",
+			"description": "Command-line audio player",
+			"repo": "btigi/mmp",
+			"asset": null
+		}
+	]
+}

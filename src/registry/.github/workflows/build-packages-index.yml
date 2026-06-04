@@ -1,0 +1,44 @@
+name: Build packages index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'manifests/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge-manifests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Merge manifest JSON files into packages.json
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          files=(manifests/*.json)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo '{"packages":[]}' > packages.json
+            echo "No manifests found; wrote empty packages.json"
+            exit 0
+          fi
+          jq -s '{ packages: [ .[] | if type == "array" then .[] else . end ] }' "${files[@]}" > packages.json
+          echo "Merged ${#files[@]} manifest(s)"
+
+      - name: Commit packages.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add packages.json
+          if git diff --staged --quiet; then
+            echo "No changes to packages.json"
+            exit 0
+          fi
+          git commit -m "chore: regenerate packages.json from manifests"
+          git push
