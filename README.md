@@ -29,7 +29,7 @@ The project supports single file, installation independent, trimmed, AoT distrib
 
 ```powershell
 dotnet publish gitget -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:PublishTrimmed=true -p:PublishAot=true
-
+```
 
 ## Usage
 
